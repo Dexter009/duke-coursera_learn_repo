@@ -2,6 +2,10 @@ name: Python application test with Github Actions
 
 on: [push]
 
+defaults:
+ run:
+  working-directory: ./scaffold
+
 jobs:
   build:
 
