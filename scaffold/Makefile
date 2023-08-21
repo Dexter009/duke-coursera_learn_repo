@@ -1,6 +1,6 @@
 install:
 	pip install --upgrade pip &&\
-		pip install -r ../scaffold/requirements.txt
+		pip install -r requirements.txt
 
 format:
 	black *.py
